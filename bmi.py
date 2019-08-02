@@ -26,3 +26,5 @@ if isinstance(height, int) and isinstance(weight, int):
         print("Your BMI is " + str(bmi) + ". You are overweight. Consider adapting a healthier lifestyle.")
     else:
         print("your BMI is " + str(bmi) + ". You are obese. Consider visiting your doctor.")
+
+print("Thank you for using this calculator!")
