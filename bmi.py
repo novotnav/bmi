@@ -1,4 +1,4 @@
-print("Welcome to the BMI calculator!")
+print("Welcome to the Basal Metabolic Index calculator!")
 
 height = input("Insert your height in centimetres: ")
 weight = input("Insert your weight in kilograms: ")
