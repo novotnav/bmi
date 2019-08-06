@@ -50,7 +50,7 @@ if quest is "y":
 if quest is "n":
     print("Thank you for using this calculator!")
 if quest is not "y" and quest is not "n":
-    print("Please type only Y or N to confirm or decline the conversion!")
+    print("Please type only y or n to confirm or decline the conversion!")
 
 
 
