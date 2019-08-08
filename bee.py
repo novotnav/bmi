@@ -1,25 +1,27 @@
 print("Welcome to the Basal Energetic Expenditure calculator!")
 
 sex = input("Select your sex: f for female, m for male: ")
-weight = input("Insert your weight in kilograms: ")
-height = input("Insert your height in centimetres: ")
-age = input("Insert your age in years: ")
-
 if sex is not "f" and sex is not "m":
     print("Please insert only letters f or m to select your sex!")
     quit()
+
+weight = input("Insert your weight in kilograms: ")
 try:
     val = int(weight)
     weight = int(weight)
 except ValueError:
     print("Please use numbers to insert weight!")
     quit()
+
+height = input("Insert your height in centimetres: ")
 try:
     val = int(height)
     height = int(height)
 except ValueError:
     print("Please use numbers to insert height!")
     quit()
+
+age = input("Insert your age in years: ")
 try:
     val = int(age)
     age = int(age)
