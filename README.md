@@ -1,4 +1,4 @@
-# Medical calculators
+# **Medical calculators**
 
 This repository contains scripts of medical calculators.
 
